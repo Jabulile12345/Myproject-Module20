@@ -1,0 +1,103 @@
+
+ body {
+	margin:50px 0px; padding:0px;
+	text-align:center;
+	}
+
+#Content {
+	width:1000px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #eee;
+	background-color:#eee;
+	}
+
+a{
+text-decoration: none;
+color:#F1880F;
+}
+
+input{
+width:30%;
+min-height:30px;
+margin:0 0 -5px;
+color:#F1880F;
+}
+input[type="button"],[type="reset"]{
+			width:20%;
+			background-color:#1589FF;
+			border-radius: 50px;
+			color:white;
+			}
+input[size="5"]{
+width:15%;
+
+}
+
+form{
+padding: 50px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    height: 150;
+    width: 150;
+}
+
+/*menu*/
+
+  #sddm
+{	margin: 0;
+	padding: 1px;
+	align: center;
+	width: 99%;
+	z-index: 60}
+
+#sddm li
+{	margin: 0;
+	padding: 0;
+	
+	float: left;
+	font: bold 11px arial;
+	display:inline;
+}
+
+#sddm li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 15px;
+	width: 132.5px;
+	background: #ccc;
+	color: #F1880F;
+	text-align: center;
+	text-decoration: none}
+
+#sddm li a:hover
+{	background: #F1880F;
+Color: #fff}
+
+#sddm div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #ADD8E6}
+
+	#sddm div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #ADD8E6;
+		color: white;
+		font: 11px arial}
+
+	#sddm div a:hover
+	{	background: #ADD8E6;
+		color: green}

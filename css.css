@@ -1,0 +1,52 @@
+ form{
+			  padding: 50px;
+			}
+            label{
+			color:#F1880F;
+			}
+			
+			option{
+			 color:#F1880F;
+			 border-radius: 50x;
+			 width: 70px;
+			 height: 50px;
+			 size: 20%;
+			}
+			
+			select{
+			 color:#F1880F;
+			 border-radius: 50x;
+			 width: 117px;
+			 height: 30px;
+			 size: 20%;
+			}
+			
+           input{
+                witdh: 20%;
+                border-radius: 50px;
+                padding: 5px;
+				color:#F1880F;
+            }
+			input[type="button"],[type="reset"]{
+			width:20%;
+			background-color:#1589FF;
+			border-radius: 50px;
+			color:white;
+			}
+			
+            input[type ="radio"]{
+                witdh: 20%;
+                border-radius: 50px;
+                padding: 5px;
+				color:#F1880F;
+            }
+            
+            
+            #Content {
+			width:1000px;
+			margin:0px auto;
+			text-align:left;
+			padding:15px;
+			border:1px dashed #eee;
+			background-color:#eee;
+			}

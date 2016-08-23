@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>myPortal | Register</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel ="stylesheet" type ="text/css" href ="css/css.css"/>
+        
+		<script type = "javascript">
+		
+function validate(){
+
+
+alert ("You are successfully registered!!");
+
+}
+		
+		</script>
+       
+        
+    </head>
+    <body>
+        <div id ="Content">
+            <img src="images/logo.png" width ="1000"/>
+			
+            <form id="form_id" action ="post" align="right">
+                <input type ="text" placeholder="Fullname" required name = "name" />
+                <input type ="text" placeholder="Surname" required name = "surname"/><br/><br/>
+                <input type ="text" placeholder="Enter your Email" size ="46" required/><br/><br/>
+                <input type ="text" placeholder="Enter your id" size ="46" required/><br/>
+                <label>BirthDay</label><br/>
+                
+                <select name ="Day">
+                <option selected="Day">Day</option>
+                <option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option>9</option>
+				<option>10</option><option>11</option><option>12</option><option>13</option><option>14</option><option>15</option><option>16</option><option>17</option><option>18</option>
+                </select>
+               
+                <select name ="Month">
+                <option selected="Month">Month</option>
+                <option>JAN</option><option>FEB</option><option>MAR</option><option>APR</option><option>MAY</option><option>JUNE</option><option>JUL</option>
+				<option>ARG</option><option>SEP</option><option>OCT</option><option>NOV</option><option>DEC</option>
+                </select>
+                
+                <select name="Year">
+                
+                <option selected="year">Year</option>
+                <option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option>
+                </select>
+                <br/><br/>
+                
+                <label>Gender</label><input type ="radio" name ="gender" value ="Male" checked=""/>Male<input type ="radio" name ="gender" value ="Female"/>Female<br/><br/><br/>
+				<input type ="int" size ="46" placeholder ="Enter your address" required/><br/><br/>
+                <input type ="int" size ="46" placeholder ="Enter your contact" required/><br/><br/>
+                
+                <input type="submit">
+                
+            </form>
+			
+			<form>
+  <label for="choose">Would you prefer a banana or cherry?</label>
+  <input id="choose" name="i_like" pattern="banana|cherry" required>
+  <button>Submit</button>
+</form>
+			
+           <!--<img src="images/smart.bmp" width ="200" /> //-->
+        </div>
+    </body>
+</html>
